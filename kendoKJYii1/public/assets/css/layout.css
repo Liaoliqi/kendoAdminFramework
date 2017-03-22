@@ -1,0 +1,40 @@
+﻿/* main layout
+--------------------------------------------------------------------------------------------------------*/
+html, body { height: 100%; width: 100%;border: 0px; padding: 0px; }
+div { border: 0px; padding: 0px; }
+
+/*主框架布局*/
+.toplayout { width:100%; min-width: 1180px; height:45px; position:relative;}
+.contentlayout { position: relative;}
+.leftlayout { position: absolute; top: 0; left: 0; height: 100%; overflow: hidden; width: 170px; }
+.rightlayout { position: absolute; top: 0; left: 170px; height: 100%; overflow: hidden;  min-width:1020px; background-color: #E6E6E6; }
+.tobgsm { position:absolute;top:8px; right:10px; cursor:pointer}
+.boxbig {position: absolute;top: 0;left:0px;height: 100%;overflow: hidden;min-width: 1020px;background-color: #E6E6E6; width:100%}
+.widthto0 {width:0px;}
+.refresh_ico { position:absolute;top:8px; right:45px; cursor:pointer;display:none}
+
+/*主体显示*/
+#layoutTabstrip { height: 100%; border-width: 0; }
+a.tce-tab-close { background-image: url("../images/tab-close.gif"); top: 4px; display: block; background-repeat: no-repeat; opacity: 0.6; width: 11px; height: 11px; position: absolute; right: 3px; cursor: pointer; z-index: 2; }
+
+/*top信息*/
+.clear_f { width:0px; height:0px; clear:both}
+.top_logo { width:320px; position:absolute; left:10px; top: 4px;}
+.top_logo img { display:block; float:left;}
+.gy_info p { color:#fff; font-size:20px; font-family:"Microsoft Yahei"; font-weight:bold; text-align:left; line-height:35px;}
+.user_info { width:524px; height:65px; position:absolute; right:20px; top: 4px;}
+.user_com { float:left; margin-left:10px; font-family:"Microsoft Yahei"; font-weight:bold; font-size:16px; line-height:20px; color:#FFF}
+.gy_tel { width:175px; height:20px; float:right; text-align:right}
+.gy_tel img { display:block; float:left; margin-right:10px;}
+.gy_tel p {color:#fff; font-size:16px; font-family:"Microsoft Yahei"; font-weight:bold; text-align:left; line-height:20px;}
+.user_btn { width:519px; padding:0px 10px;height:32px; margin-top:2px; background:url(../images/usernav_bg.png) no-repeat; background-size:100%; }
+.user_btn span { display:block; float:left; color:#fff; line-height:32px;}
+.top_btn { float:left; width:66px; height:22px; margin-top:5px; margin-left:5px; border-width: 0; line-height:20px; color:#fff; background-image:url(../images/userbtn_bg.png); cursor:pointer; text-align:center; background-color: transparent; }
+.main_box { width:100%;}
+
+
+.user_mail {float: left;width: 60px;margin-left: 15px;height: 20px;}
+.user_mail a {display:block; float:left;height:18px;width:25px;}
+.new_mail {background:url("../images/newmes_ico.png") no-repeat;padding-left:26px;}
+.now_mail {background:url("../images/mes_ico.png") no-repeat;padding-left:26px;}
+.user_mail span {color:#fff; display:block;float:left; line-height:23px; font-size:12px;}

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar{
+	background: #293c55;
+}
+.navbar .navbar-brand small {
+    color: #fff;
+}
+.left_line{
+	border-top: 1px solid #162436;
+}
+.leftlayout{
+	background-color: #293c55;
+}
+.k-panelbar > li.k-state-default > .k-link{
+	background:#293c55;
+}
+.k-panelbar .k-panel{
+	background:#162436;
+}
+.k-panel > li.k-item {
+	background:#162436;
+}
+.k-panelbar > li.k-state-default > .k-link i ,.k-panelbar > li.k-state-default > .k-link span{
+	color:#fff;
+}
+.k-panel > li.k-item a span{
+	color:#fff;
+}
+.fa{
+	color:#666;
+}
+.k-panel .k-panel > .k-item > .k-link{
+	color:#fff;
+}

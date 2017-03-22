@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:url('../images/skin9.jpg') no-repeat top center fixed;
+	background-size: cover;
+}
+.navbar .navbar-brand small {
+	color: #fff;
+}
+.left_line{
+	border-top:none;
+}
+.navbar ,.leftlayout ,.k-panelbar,.k-panelbar li,.k-panelbar > li.k-item ,.k-panelbar > li.k-state-default > .k-link{
+	background: none;
+}
+.k-panelbar .k-panel{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+	border-top: 10px solid rgba(0,0,0,0.3) !important;
+	border-bottom: 10px solid rgba(0,0,0,0.3) !important;
+	padding: 0 !important;
+}
+.k-panel > li.k-item {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+}
+.k-panelbar > li.k-state-default > .k-link i ,.k-panelbar > li.k-state-default > .k-link span{
+	color:#fff;
+}
+.k-panel > li.k-item a span{
+	color:#fff;
+}
+.fa{
+	color:#999;
+}
+.k-panel .k-panel > .k-item > .k-link{
+	color:#fff;
+}
+.rightlayout{
+	background: none;
+}
+#layoutTabstrip{
+	background: none;
+}
+.k-tabstrip-items{
+	padding: 0;
+	margin: .3em .3em 0;
+	background: rgba(255,255,255,0.5);
+	border-radius: 4px;
+}
+.ace-nav > li.light-blue > a{
+	background: none;
+}
+.user-info,.user-info small{
+	color: #fff;
+}
+.k-i-arrow-s ,.k-link:not(.k-state-disabled):hover > .k-i-arrow-s,.k-state-hover > .k-i-arrow-s,.k-state-hover > * > .k-i-arrow-s,.k-button:not(.k-state-disabled):hover .k-i-arrow-s,
+.k-textbox:hover .k-i-arrow-s,.k-button:active .k-i-arrow-s,.k-state-selected .k-i-arrow-s{
+	background-position: -110px -28px;
+}
+.k-i-arrow-n ,.k-link:not(.k-state-disabled):hover > .k-i-arrow-n,.k-state-hover > .k-i-arrow-n,.k-state-hover > * > .k-i-arrow-n,.k-button:not(.k-state-disabled):hover .k-i-arrow-n,
+.k-textbox:hover .k-i-arrow-n,.k-button:active .k-i-arrow-n,.k-state-selected .k-i-arrow-n{
+	background-position: -115px -7px;
+}
+.ace-nav > li.light-blue > a:hover, .ace-nav > li.light-blue > a:focus, .ace-nav > li.open.light-blue > a{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+}

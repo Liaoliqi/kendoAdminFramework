@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar{
+	background: #428bca;
+}
+.navbar .navbar-brand small {
+    color: #fff;
+}
+.left_line{
+	border-top: 1px solid #2368a3;
+}
+.leftlayout{
+	background-color: #428bca;
+}
+.k-panelbar > li.k-state-default > .k-link{
+	background:#428bca;
+}
+.k-panelbar .k-panel{
+	background:#2368a3;
+}
+.k-panel > li.k-item {
+	background:#2368a3;
+}
+.k-panelbar > li.k-state-default > .k-link i ,.k-panelbar > li.k-state-default > .k-link span{
+	color:#fff;
+}
+.k-panel > li.k-item a span{
+	color:#fff;
+}
+.fa{
+	color:#999;
+}
+.k-panel .k-panel > .k-item > .k-link{
+	color:#fff;
+}
+.k-i-arrow-s ,.k-link:not(.k-state-disabled):hover > .k-i-arrow-s,.k-state-hover > .k-i-arrow-s,.k-state-hover > * > .k-i-arrow-s,.k-button:not(.k-state-disabled):hover .k-i-arrow-s,
+.k-textbox:hover .k-i-arrow-s,.k-button:active .k-i-arrow-s,.k-state-selected .k-i-arrow-s{
+	background-position: -110px -28px;
+}
+.k-i-arrow-n ,.k-link:not(.k-state-disabled):hover > .k-i-arrow-n,.k-state-hover > .k-i-arrow-n,.k-state-hover > * > .k-i-arrow-n,.k-button:not(.k-state-disabled):hover .k-i-arrow-n,
+.k-textbox:hover .k-i-arrow-n,.k-button:active .k-i-arrow-n,.k-state-selected .k-i-arrow-n{
+	background-position: -115px -7px;
+}

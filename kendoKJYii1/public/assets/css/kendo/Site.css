@@ -1,0 +1,83 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    color: #333;
+}
+
+body {
+    background-color: transparent;
+    font-family: Verdana, Geneva, sans-serif;
+    /*font-size: 0.85em;*/
+    width: 100%;
+}
+
+img {
+    border: 0px;
+}
+
+a {
+    color: #03C;
+    outline: none;
+    text-decoration: none;
+}
+
+a:link, a:visited, a:active, a:hover { 
+    /*color: #333;*/
+}
+
+a:hover { 
+    /*background-color: #c7d1d6;*/
+}
+
+header, footer, hgroup, nav, section {
+    display: block;
+}
+
+.float-left {
+	float:left;
+	width:200px;
+}
+
+.float-right {
+	float:left;
+}
+
+.clear-fix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+
+h5 a:link, h5 a:visited, h5 a:active {
+    padding: 0;
+    text-decoration: none;
+}
+
